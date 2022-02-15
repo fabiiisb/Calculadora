@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cccccc;
+    font-family: 'Saira', sans-serif;
+}
+.main-container{
+    
+    width: 500px;
+    height: 680px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 40px #afafaf,
+                 -20px -20px 40px #ffffff;
+    margin-top: 50px;
+}
+
+.main-container .text{
+   
+    
+    height: 120px;
+    overflow-x: scroll;
+    padding-right: 15px;
+
+    
+}
+.main-container .text p{
+    
+    text-align: right;
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.buttons{
+    
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+
+    
+   
+}
+
+.button-number{
+    height: 100px;
+    width: 119px;
+    margin-top: 5px;
+    font-size: 23px;
+    font-family: 'Saira', sans-serif;
+
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .2s;
+    
+}
+
+
+
+
+
+.button-number:hover {
+    border: 1px solid rgb(77, 77, 77);
+    
+   }
+   
+   .button-number:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+   }
+
+   .button-number:last-child{
+    width: 100%;
+    font-size: 35px;
+    
+  }
+
+  span{
+    font-family: 'Cinzel', serif;
+    color:#090909;
+    text-decoration: none;
+    
+    text-align: center;
+  }
+  span .madeby{
+    margin-top: 25px;
+  }
+  span p{
+    margin-top: 18px;
+      font-size: 17px;
+  }
+  span a {
+      color:#090909;
+     
+  }
+
+ 
+
